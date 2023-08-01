@@ -1,7 +1,7 @@
 baseURL = "https://goofish-shop.github.io/hugo-book"
 # languageCode = "en-us"
 title = "goofish-shop"
-theme = ["hugo-video", "hugo-book"]
+theme = [ "hugo-book"]
 
 disableFingerprinting = true
 pluralizeListTitles = false
