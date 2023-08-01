@@ -4,8 +4,9 @@ menu:
     name: About
     weight: 1
   params: 
-    target: '_blank'
- 
+    target: _blank
+params:
+    target: _blank
 
 
 title: About
