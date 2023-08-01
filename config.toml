@@ -33,6 +33,10 @@ tag = "tags"
 name = "Github"
 url = "https://github.com/goofish-shop/hugo-book"
 weight = 4
+[[menu.after]]
+name = "测试"
+url = "https://github.com/ahkevinxy/go-cmb"
+weight = 2
 
 [[menu.after]]
 name = "Email"
