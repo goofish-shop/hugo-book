@@ -1,0 +1,44 @@
+baseURL = "https://goofish-shop.github.io/hugo-book"
+# languageCode = "en-us"
+title = "goofish-shop"
+theme = ["hugo-video", "hugo-book"]
+
+disableFingerprinting = true
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+# Needed for mermaid shortcodes
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+# Needed for mermaid shortcode
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 11
+
+[taxonomies]
+tag = "tags"
+
+[menu]
+[[menu.after]]
+name = "Github"
+url = "https://github.com/goofish-shop/hugo-book"
+weight = 4
+
+[[menu.after]]
+name = "Email"
+url = "mailto:ahkevinxyk@gmail.com"
+weight = 5
+
+[params]
+BookRepo = 'https://github.com/goofish-shop/hugo-book'
+BookEditPath = 'blob/master'
