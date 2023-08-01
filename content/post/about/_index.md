@@ -3,6 +3,10 @@ menu:
   after:
     name: About
     weight: 1
+  target: "_blank"
+ 
+
+
 title: About
 target: _blank
 ---
