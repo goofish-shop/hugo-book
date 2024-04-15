@@ -1,6 +1,6 @@
 baseURL = "https://goofish-shop.github.io/hugo-book"
 # languageCode = "en-us"
-title = "goofish-shop"
+title = "Jimumeor' Book "
 theme = [ "hugo-book"]
 
 disableFingerprinting = true
@@ -29,15 +29,11 @@ endLevel = 11
 tag = "tags"
 
 [menu]
+
 [[menu.after]]
 name = "Github"
 url = "https://github.com/goofish-shop/hugo-book"
 weight = 4
-[[menu.after]]
-name = "测试"
-url = "https://github.com/ahkevinxy/go-cmb"
-weight = 2
-
 [[menu.after]]
 name = "Email"
 url = "mailto:ahkevinxyk@gmail.com"
@@ -46,3 +42,5 @@ weight = 5
 [params]
 BookRepo = 'https://github.com/goofish-shop/hugo-book'
 BookEditPath = 'blob/master'
+
+BookComments= true

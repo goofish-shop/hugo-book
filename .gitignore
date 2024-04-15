@@ -1,3 +1,6 @@
 .idea/
 .vscode/
 logs/
+public/
+
+resources/

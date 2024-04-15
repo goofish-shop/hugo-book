@@ -1,10 +1,5 @@
 ---
-menu:
-  after:
-    name: About
-    weight: 1
-  params: 
-    target: _blank
+
 params:
     target: _blank
 
