@@ -1,7 +1,7 @@
 ---
 headless: true
 ---
-
+- [**首页**]({{< relref "/" >}})
 - [**Memos**]({{< relref "/docs/memos" >}})
 - [**旅行**]({{< relref "/post/travel" >}})
 - [**相册**]({{< relref "/post/album" >}})
